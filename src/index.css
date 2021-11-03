@@ -1,13 +1,143 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+  }
+  
+body{
+  font-family: 'Sarpanch', sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #e7ecee;
+}    
+  
+img {
+  width: 105px;
+  height: 105px;
+  border-radius: 20px;
+  cursor: pointer;
+}  
+  
+.card {
+  width: 120px;
+  height: 120px;
+  position: relative;
+
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: transform .5s;
+  transform-style: preserve-3d;
+  transition: transform .6s;  
+}  
+  
+.back, .front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}  
+  
+.turn {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+} 
+  
+.front {
+  -webkit-transform: rotateY(180deg); 
+  transform: rotateY(180deg);
+  background-color: white;
+} 
+  
+.back {
+  color: #101c2c;
+  background-color: #05c3ff;
+  font-size: 30px;
+} 
+  
+.icon-back {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+  
+#gameOver {
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FE4400;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  text-align: center;
+} 
+  
+#restart {
+  padding: 20px 40px 20px 40px;
+  font-size: 30px;
+  color: rgb(243, 236, 236);
+  background-color: #FE4400;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+} 
+  
+button {
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#board {
+  max-width: 700px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr ;
+  gap:20px 
+} 
+
+@media only screen and (max-width: 768px) {
+  #board {
+    max-width: 500px; 
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr ;
+    gap: 10px;
+    
+  }
+
+  .card {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;  
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;  
+  }
+
+  .icon-back {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;  
+  }
+
+  #restart {
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  #gameOver {
+    font-size: 30px;
+   }
 }
