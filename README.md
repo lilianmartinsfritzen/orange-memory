@@ -5,12 +5,12 @@
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#execucao">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licenca">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#desenvolvedora">🙋🏻‍♀️</a>
+  <a href="#desenvolvedora">🙋‍♀️</a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-<a href="https://github.com/lilianmartinsfritzen/TDD-ValidationAndSecurity/blob/main/LICENSE">
+<a href="https://github.com/lilianmartinsfritzen/orange-memory/blob/master/LICENSE">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" />
 </a>
 </p>
@@ -46,7 +46,7 @@
   <br><br>
   Diante disso pensei em criar uma pequena aplicação que fosse possível interagir e, de maneira direta, explicar os conceitos da tecnologia que foi utilizada. Ainda assim, as pessoas que quisessem se aprofundar poderiam verificar o código no repositório.
   <br><br>
-  Faltava então o que seria a aplicação e a tecnologia utilizada, então escolhi o React, uma biblioteca JavaScritp bastante utilizada, que inclusive faz parte do Ignite. Praticamente o pouco que sei até o momento sobre React foi participando dos Next Level Week, eventos incríveis realizados pela Rocketseat.  
+  Faltava então o que seria a aplicação e a tecnologia utilizada, então escolhi o React, uma biblioteca JavaScript bastante utilizada, que inclusive faz parte do Ignite. Praticamente o pouco que sei até o momento sobre React foi participando dos Next Level Week, eventos incríveis realizados pela Rocketseat.  
   <br><br>
   Finalmente sobre a aplicação, como pretendia descobrir como publicar no GitHub Pages para que fosse possível interagir de qualquer lugar, pensei em um jogo simples, onde as interações ocorreriam apenas no front-end e que trouxesse informações sobre o Grupo FCamara, eis que surgiu o Orange Memory.
   <br><br>
