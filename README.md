@@ -42,9 +42,9 @@
 <h2 id="ideia">💡 Ideia</h2> 
 <br>
 <div align="justify">
-  Pensei em criar um conteúdo objetivo para o Instagram da Orange Juice, mas com o cuidado de não ficar superficial pelo fato de serem posts com "pouca informação", de fácil leitura e entendimento.
+  Pensei em criar um conteúdo que fosse objetivo e direcionado para o Instagram da Orange Juice, mas com o cuidado de não ficar superficial pelo fato de serem posts com "pouca informação", de fácil leitura e entendimento.
   <br><br>
-  Diante disso pensei em criar uma pequena aplicação que fosse possível interagir e, de maneira direta, explicar os conceitos da tecnologia que foi utilizada. Ainda assim, as pessoas que quisessem se aprofundar poderiam verificar o código no repositório.
+  Diante disso imaginei uma pequena aplicação que fosse possível interagir e, de maneira direta, explicar os conceitos da tecnologia que foi utilizada. Ainda assim, as pessoas que quisessem se aprofundar poderiam verificar o código no repositório.
   <br><br>
   Faltava então o que seria a aplicação e a tecnologia utilizada, então escolhi o React, uma biblioteca JavaScript bastante utilizada, que inclusive faz parte do Ignite. Praticamente o pouco que sei até o momento sobre React foi participando dos Next Level Week, eventos incríveis realizados pela Rocketseat.  
   <br><br>
@@ -53,7 +53,7 @@
   Fiz várias pesquisas sobre outros jogos e as lógicas por trás, vi muita coisa apenas em JavaScript e em seguida em React para entender mais sobre essa transição, além de ter sofrido um pouco com a publicação no GitHub Pages. 
   <br><br>
   
-  No fim deu tudo certo, o jogo está disponível em [Orange Memory](https://lilianmartinsfritzen.github.io/orange-memory/ "Orange Memory") e siiimmmmmm ganhei a bolsa. 💁‍♀️🏆 Mas não teve fim de semana nem feriadão não hein!! Está sendo incrível fazer parte do Programa de Formação da FCamara e pode ter certeza que o incentivo para o aprendizado constante acontece o tempo todo lá. 🧡 <span style="color: #FE4400;">#SangueLaranja</span> 
+  No fim deu tudo certo, o jogo está disponível em [Orange Memory](https://lilianmartinsfritzen.github.io/orange-memory/ "Orange Memory") e siiimmmmmm ganhei a bolsa. 💁‍♀️🏆 Mas não teve fim de semana nem feriadão não hein!! Está sendo incrível fazer parte do [Programa de Formação da FCamara](https://digital.fcamara.com.br/programadeformacao "Programa de Formação da FCamara") e pode ter certeza que o incentivo para o aprendizado constante acontece o tempo todo lá. 🧡 <span style="color: #FE4400;">#SangueLaranja</span> 
   <br><br>
 
 <hr>
